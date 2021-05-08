@@ -1,0 +1,139 @@
+Number of fruits to be selected 5
+Number of apples fruits 3
+Number of banana fruits 3
+Number of oranges fruits 3
+Total number of fruits 9
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]]
+ 
+number  of ways to select 5 fruits form 9 is 9C5 = 126
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (3Cx*3Cy*3C(5-x-y)) /9C5
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 oraanges fruits, 0 apple fruits and 5 banana fruits from  9 fruits is 3C0*3C0*3C5 = 0
+Probability of  selecting 0 orange fruits, 0 apple fruits and 5 banana fruits from  9 fruits is 0/126 = 0.0
+ 
+Number  of ways to  select  0 oraanges fruits, 1 apple fruits and 4 banana fruits from  9 fruits is 3C0*3C1*3C4 = 0
+Probability of  selecting 0 orange fruits, 1 apple fruits and 4 banana fruits from  9 fruits is 0/126 = 0.0
+ 
+Number  of ways to  select  0 oraanges fruits, 2 apple fruits and 3 banana fruits from  9 fruits is 3C0*3C2*3C3 = 3
+Probability of  selecting 0 orange fruits, 2 apple fruits and 3 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+Number  of ways to  select  0 oraanges fruits, 3 apple fruits and 2 banana fruits from  9 fruits is 3C0*3C3*3C2 = 3
+Probability of  selecting 0 orange fruits, 3 apple fruits and 2 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+Number  of ways to  select  1 oraanges fruits, 0 apple fruits and 4 banana fruits from  9 fruits is 3C1*3C0*3C4 = 0
+Probability of  selecting 1 orange fruits, 0 apple fruits and 4 banana fruits from  9 fruits is 0/126 = 0.0
+ 
+Number  of ways to  select  1 oraanges fruits, 1 apple fruits and 3 banana fruits from  9 fruits is 3C1*3C1*3C3 = 9
+Probability of  selecting 1 orange fruits, 1 apple fruits and 3 banana fruits from  9 fruits is 9/126 = 0.0714285714286
+ 
+Number  of ways to  select  1 oraanges fruits, 2 apple fruits and 2 banana fruits from  9 fruits is 3C1*3C2*3C2 = 27
+Probability of  selecting 1 orange fruits, 2 apple fruits and 2 banana fruits from  9 fruits is 27/126 = 0.214285714286
+ 
+Number  of ways to  select  1 oraanges fruits, 3 apple fruits and 1 banana fruits from  9 fruits is 3C1*3C3*3C1 = 9
+Probability of  selecting 1 orange fruits, 3 apple fruits and 1 banana fruits from  9 fruits is 9/126 = 0.0714285714286
+ 
+Number  of ways to  select  2 oraanges fruits, 0 apple fruits and 3 banana fruits from  9 fruits is 3C2*3C0*3C3 = 3
+Probability of  selecting 2 orange fruits, 0 apple fruits and 3 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+Number  of ways to  select  2 oraanges fruits, 1 apple fruits and 2 banana fruits from  9 fruits is 3C2*3C1*3C2 = 27
+Probability of  selecting 2 orange fruits, 1 apple fruits and 2 banana fruits from  9 fruits is 27/126 = 0.214285714286
+ 
+Number  of ways to  select  2 oraanges fruits, 2 apple fruits and 1 banana fruits from  9 fruits is 3C2*3C2*3C1 = 27
+Probability of  selecting 2 orange fruits, 2 apple fruits and 1 banana fruits from  9 fruits is 27/126 = 0.214285714286
+ 
+Number  of ways to  select  2 oraanges fruits, 3 apple fruits and 0 banana fruits from  9 fruits is 3C2*3C3*3C0 = 3
+Probability of  selecting 2 orange fruits, 3 apple fruits and 0 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+Number  of ways to  select  3 oraanges fruits, 0 apple fruits and 2 banana fruits from  9 fruits is 3C3*3C0*3C2 = 3
+Probability of  selecting 3 orange fruits, 0 apple fruits and 2 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+Number  of ways to  select  3 oraanges fruits, 1 apple fruits and 1 banana fruits from  9 fruits is 3C3*3C1*3C1 = 9
+Probability of  selecting 3 orange fruits, 1 apple fruits and 1 banana fruits from  9 fruits is 9/126 = 0.0714285714286
+ 
+Number  of ways to  select  3 oraanges fruits, 2 apple fruits and 0 banana fruits from  9 fruits is 3C3*3C2*3C0 = 3
+Probability of  selecting 3 orange fruits, 2 apple fruits and 0 banana fruits from  9 fruits is 3/126 = 0.0238095238095
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3						 4						 5
+0    0.00000000000000000    0.00000000000000000    0.02380952380952381    0.02380952380952381    0.00000000000000000    0.00000000000000000
+1    0.00000000000000000    0.07142857142857142    0.21428571428571427    0.07142857142857142    0.00000000000000000    0.00000000000000000
+2    0.02380952380952381    0.21428571428571427    0.21428571428571427    0.02380952380952381    0.00000000000000000    0.00000000000000000
+3    0.02380952380952381    0.07142857142857142    0.02380952380952381    0.00000000000000000    0.00000000000000000    0.00000000000000000
+4    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+5    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 4						 5						 SUM
+0    0.00000000000000000    0.00000000000000000    0.02380952380952381    0.02380952380952381    0.00000000000000000    0.00000000000000000    0.04761904761904762
+ 
+1    0.00000000000000000    0.07142857142857142    0.21428571428571427    0.07142857142857142    0.00000000000000000    0.00000000000000000    0.35714285714285710
+ 
+2    0.02380952380952381    0.21428571428571427    0.21428571428571427    0.02380952380952381    0.00000000000000000    0.00000000000000000    0.47619047619047616
+ 
+3    0.02380952380952381    0.07142857142857142    0.02380952380952381    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.11904761904761904
+ 
+4    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+ 
+5    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+ 
+Sum  0.04761904761904762    0.35714285714285710    0.47619047619047616    0.11904761904761904    0.00000000000000000    0.00000000000000000    1.00000000000000000
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3						 4						 5
+g(x)  0.04761904761904762    0.35714285714285710    0.47619047619047616    0.11904761904761904    0.00000000000000000    0.00000000000000000
+
+f(0) = 0.04761904761904762
+f(1) = 0.35714285714285710
+f(2) = 0.47619047619047616
+f(3) = 0.11904761904761904
+f(4) = 0.00000000000000000
+f(5) = 0.00000000000000000
+Value of Ux is  0.04761904761904762 * 0 + 0.35714285714285710 * 1 + 0.47619047619047616 * 2 + 0.11904761904761904 * 3 + 0.00000000000000000 * 4 + 0.00000000000000000 * 5 = 1.66666666667
+ 
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3						 4						 5
+h(y)  0.04761904761904762    0.35714285714285710    0.47619047619047616    0.11904761904761904    0.00000000000000000    0.00000000000000000
+ 
+ 
+ 
+f(0) = 0.04761904761904762
+f(1) = 0.35714285714285710
+f(2) = 0.47619047619047616
+f(3) = 0.11904761904761904
+f(4) = 0.00000000000000000
+f(5) = 0.00000000000000000
+Value of Uy is  0.04761904761904762 * 0 + 0.35714285714285710 * 1 + 0.47619047619047616 * 2 + 0.11904761904761904 * 3 + 0.00000000000000000 * 4 + 0.00000000000000000 * 5 = 1.66666666667
+ 
+--------------------------------------------------------------------------------------------------------------------
+Value of E(XY) is  0.0 * 0 * 0 + 0.0 * 0 * 1 + 0.0238095238095 * 0 * 2 + 0.0238095238095 * 0 * 3 + 0 * 0 * 4 + 0 * 0 * 5 + 0.0 * 1 * 0 + 0.0714285714286 * 1 * 1 + 0.214285714286 * 1 * 2 + 0.0714285714286 * 1 * 3 + 0 * 1 * 4 + 0 * 1 * 5 + 0.0238095238095 * 2 * 0 + 0.214285714286 * 2 * 1 + 0.214285714286 * 2 * 2 + 0.0238095238095 * 2 * 3 + 0 * 2 * 4 + 0 * 2 * 5 + 0.0238095238095 * 3 * 0 + 0.0714285714286 * 3 * 1 + 0.0238095238095 * 3 * 2 + 0 * 3 * 3 + 0 * 3 * 4 + 0 * 3 * 5 + 0 * 4 * 0 + 0 * 4 * 1 + 0 * 4 * 2 + 0 * 4 * 3 + 0 * 4 * 4 + 0 * 4 * 5 + 0 * 5 * 0 + 0 * 5 * 1 + 0 * 5 * 2 + 0 * 5 * 3 + 0 * 5 * 4 + 0 * 5 * 5 = 2.5
+ 
+---------------------------------------------------------------------------------------------------------------------
+The covariance of the random variables X and Y is E(XY) - Ux * Uy = 2.5 - 1.66666666667 * 1.66666666667 = -0.277777777778

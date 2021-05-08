@@ -1,0 +1,309 @@
+Number of pens to be selected 10
+Number of blue pens 10
+Number of red pens 10
+Number of green pens 10
+Total number of pens 30
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [2, 0], [2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [3, 0], [3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [3, 7], [4, 0], [4, 1], [4, 2], [4, 3], [4, 4], [4, 5], [4, 6], [5, 0], [5, 1], [5, 2], [5, 3], [5, 4], [5, 5], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [7, 0], [7, 1], [7, 2], [7, 3], [8, 0], [8, 1], [8, 2], [9, 0], [9, 1], [10, 0]]
+ 
+number  of ways to select 10 pens form 30 is 30C10 = 30045015
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (10Cx*10Cy*10C(10-x-y)) /30C10
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 blue pens, 0 red pens and 10 green pens from  30 pens is 10C0*10C0*10C10 = 1
+Probability of  selecting 0 blue pens, 0 red pens and 10 green pens from  30 pens is 1/30045015 = 3.32833916042e-08
+ 
+Number  of ways to  select  0 blue pens, 1 red pens and 9 green pens from  30 pens is 10C0*10C1*10C9 = 100
+Probability of  selecting 0 blue pens, 1 red pens and 9 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  0 blue pens, 2 red pens and 8 green pens from  30 pens is 10C0*10C2*10C8 = 2025
+Probability of  selecting 0 blue pens, 2 red pens and 8 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  0 blue pens, 3 red pens and 7 green pens from  30 pens is 10C0*10C3*10C7 = 14400
+Probability of  selecting 0 blue pens, 3 red pens and 7 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  0 blue pens, 4 red pens and 6 green pens from  30 pens is 10C0*10C4*10C6 = 44100
+Probability of  selecting 0 blue pens, 4 red pens and 6 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  0 blue pens, 5 red pens and 5 green pens from  30 pens is 10C0*10C5*10C5 = 63504
+Probability of  selecting 0 blue pens, 5 red pens and 5 green pens from  30 pens is 63504/30045015 = 0.00211362850044
+ 
+Number  of ways to  select  0 blue pens, 6 red pens and 4 green pens from  30 pens is 10C0*10C6*10C4 = 44100
+Probability of  selecting 0 blue pens, 6 red pens and 4 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  0 blue pens, 7 red pens and 3 green pens from  30 pens is 10C0*10C7*10C3 = 14400
+Probability of  selecting 0 blue pens, 7 red pens and 3 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  0 blue pens, 8 red pens and 2 green pens from  30 pens is 10C0*10C8*10C2 = 2025
+Probability of  selecting 0 blue pens, 8 red pens and 2 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  0 blue pens, 9 red pens and 1 green pens from  30 pens is 10C0*10C9*10C1 = 100
+Probability of  selecting 0 blue pens, 9 red pens and 1 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  0 blue pens, 10 red pens and 0 green pens from  30 pens is 10C0*10C10*10C0 = 1
+Probability of  selecting 0 blue pens, 10 red pens and 0 green pens from  30 pens is 1/30045015 = 3.32833916042e-08
+ 
+Number  of ways to  select  1 blue pens, 0 red pens and 9 green pens from  30 pens is 10C1*10C0*10C9 = 100
+Probability of  selecting 1 blue pens, 0 red pens and 9 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  1 blue pens, 1 red pens and 8 green pens from  30 pens is 10C1*10C1*10C8 = 4500
+Probability of  selecting 1 blue pens, 1 red pens and 8 green pens from  30 pens is 4500/30045015 = 0.000149775262219
+ 
+Number  of ways to  select  1 blue pens, 2 red pens and 7 green pens from  30 pens is 10C1*10C2*10C7 = 54000
+Probability of  selecting 1 blue pens, 2 red pens and 7 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  1 blue pens, 3 red pens and 6 green pens from  30 pens is 10C1*10C3*10C6 = 252000
+Probability of  selecting 1 blue pens, 3 red pens and 6 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  1 blue pens, 4 red pens and 5 green pens from  30 pens is 10C1*10C4*10C5 = 529200
+Probability of  selecting 1 blue pens, 4 red pens and 5 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  1 blue pens, 5 red pens and 4 green pens from  30 pens is 10C1*10C5*10C4 = 529200
+Probability of  selecting 1 blue pens, 5 red pens and 4 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  1 blue pens, 6 red pens and 3 green pens from  30 pens is 10C1*10C6*10C3 = 252000
+Probability of  selecting 1 blue pens, 6 red pens and 3 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  1 blue pens, 7 red pens and 2 green pens from  30 pens is 10C1*10C7*10C2 = 54000
+Probability of  selecting 1 blue pens, 7 red pens and 2 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  1 blue pens, 8 red pens and 1 green pens from  30 pens is 10C1*10C8*10C1 = 4500
+Probability of  selecting 1 blue pens, 8 red pens and 1 green pens from  30 pens is 4500/30045015 = 0.000149775262219
+ 
+Number  of ways to  select  1 blue pens, 9 red pens and 0 green pens from  30 pens is 10C1*10C9*10C0 = 100
+Probability of  selecting 1 blue pens, 9 red pens and 0 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  2 blue pens, 0 red pens and 8 green pens from  30 pens is 10C2*10C0*10C8 = 2025
+Probability of  selecting 2 blue pens, 0 red pens and 8 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  2 blue pens, 1 red pens and 7 green pens from  30 pens is 10C2*10C1*10C7 = 54000
+Probability of  selecting 2 blue pens, 1 red pens and 7 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  2 blue pens, 2 red pens and 6 green pens from  30 pens is 10C2*10C2*10C6 = 425250
+Probability of  selecting 2 blue pens, 2 red pens and 6 green pens from  30 pens is 425250/30045015 = 0.0141537622797
+ 
+Number  of ways to  select  2 blue pens, 3 red pens and 5 green pens from  30 pens is 10C2*10C3*10C5 = 1360800
+Probability of  selecting 2 blue pens, 3 red pens and 5 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  2 blue pens, 4 red pens and 4 green pens from  30 pens is 10C2*10C4*10C4 = 1984500
+Probability of  selecting 2 blue pens, 4 red pens and 4 green pens from  30 pens is 1984500/30045015 = 0.0660508906386
+ 
+Number  of ways to  select  2 blue pens, 5 red pens and 3 green pens from  30 pens is 10C2*10C5*10C3 = 1360800
+Probability of  selecting 2 blue pens, 5 red pens and 3 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  2 blue pens, 6 red pens and 2 green pens from  30 pens is 10C2*10C6*10C2 = 425250
+Probability of  selecting 2 blue pens, 6 red pens and 2 green pens from  30 pens is 425250/30045015 = 0.0141537622797
+ 
+Number  of ways to  select  2 blue pens, 7 red pens and 1 green pens from  30 pens is 10C2*10C7*10C1 = 54000
+Probability of  selecting 2 blue pens, 7 red pens and 1 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  2 blue pens, 8 red pens and 0 green pens from  30 pens is 10C2*10C8*10C0 = 2025
+Probability of  selecting 2 blue pens, 8 red pens and 0 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  3 blue pens, 0 red pens and 7 green pens from  30 pens is 10C3*10C0*10C7 = 14400
+Probability of  selecting 3 blue pens, 0 red pens and 7 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  3 blue pens, 1 red pens and 6 green pens from  30 pens is 10C3*10C1*10C6 = 252000
+Probability of  selecting 3 blue pens, 1 red pens and 6 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  3 blue pens, 2 red pens and 5 green pens from  30 pens is 10C3*10C2*10C5 = 1360800
+Probability of  selecting 3 blue pens, 2 red pens and 5 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  3 blue pens, 3 red pens and 4 green pens from  30 pens is 10C3*10C3*10C4 = 3024000
+Probability of  selecting 3 blue pens, 3 red pens and 4 green pens from  30 pens is 3024000/30045015 = 0.100648976211
+ 
+Number  of ways to  select  3 blue pens, 4 red pens and 3 green pens from  30 pens is 10C3*10C4*10C3 = 3024000
+Probability of  selecting 3 blue pens, 4 red pens and 3 green pens from  30 pens is 3024000/30045015 = 0.100648976211
+ 
+Number  of ways to  select  3 blue pens, 5 red pens and 2 green pens from  30 pens is 10C3*10C5*10C2 = 1360800
+Probability of  selecting 3 blue pens, 5 red pens and 2 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  3 blue pens, 6 red pens and 1 green pens from  30 pens is 10C3*10C6*10C1 = 252000
+Probability of  selecting 3 blue pens, 6 red pens and 1 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  3 blue pens, 7 red pens and 0 green pens from  30 pens is 10C3*10C7*10C0 = 14400
+Probability of  selecting 3 blue pens, 7 red pens and 0 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  4 blue pens, 0 red pens and 6 green pens from  30 pens is 10C4*10C0*10C6 = 44100
+Probability of  selecting 4 blue pens, 0 red pens and 6 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  4 blue pens, 1 red pens and 5 green pens from  30 pens is 10C4*10C1*10C5 = 529200
+Probability of  selecting 4 blue pens, 1 red pens and 5 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  4 blue pens, 2 red pens and 4 green pens from  30 pens is 10C4*10C2*10C4 = 1984500
+Probability of  selecting 4 blue pens, 2 red pens and 4 green pens from  30 pens is 1984500/30045015 = 0.0660508906386
+ 
+Number  of ways to  select  4 blue pens, 3 red pens and 3 green pens from  30 pens is 10C4*10C3*10C3 = 3024000
+Probability of  selecting 4 blue pens, 3 red pens and 3 green pens from  30 pens is 3024000/30045015 = 0.100648976211
+ 
+Number  of ways to  select  4 blue pens, 4 red pens and 2 green pens from  30 pens is 10C4*10C4*10C2 = 1984500
+Probability of  selecting 4 blue pens, 4 red pens and 2 green pens from  30 pens is 1984500/30045015 = 0.0660508906386
+ 
+Number  of ways to  select  4 blue pens, 5 red pens and 1 green pens from  30 pens is 10C4*10C5*10C1 = 529200
+Probability of  selecting 4 blue pens, 5 red pens and 1 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  4 blue pens, 6 red pens and 0 green pens from  30 pens is 10C4*10C6*10C0 = 44100
+Probability of  selecting 4 blue pens, 6 red pens and 0 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  5 blue pens, 0 red pens and 5 green pens from  30 pens is 10C5*10C0*10C5 = 63504
+Probability of  selecting 5 blue pens, 0 red pens and 5 green pens from  30 pens is 63504/30045015 = 0.00211362850044
+ 
+Number  of ways to  select  5 blue pens, 1 red pens and 4 green pens from  30 pens is 10C5*10C1*10C4 = 529200
+Probability of  selecting 5 blue pens, 1 red pens and 4 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  5 blue pens, 2 red pens and 3 green pens from  30 pens is 10C5*10C2*10C3 = 1360800
+Probability of  selecting 5 blue pens, 2 red pens and 3 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  5 blue pens, 3 red pens and 2 green pens from  30 pens is 10C5*10C3*10C2 = 1360800
+Probability of  selecting 5 blue pens, 3 red pens and 2 green pens from  30 pens is 1360800/30045015 = 0.045292039295
+ 
+Number  of ways to  select  5 blue pens, 4 red pens and 1 green pens from  30 pens is 10C5*10C4*10C1 = 529200
+Probability of  selecting 5 blue pens, 4 red pens and 1 green pens from  30 pens is 529200/30045015 = 0.017613570837
+ 
+Number  of ways to  select  5 blue pens, 5 red pens and 0 green pens from  30 pens is 10C5*10C5*10C0 = 63504
+Probability of  selecting 5 blue pens, 5 red pens and 0 green pens from  30 pens is 63504/30045015 = 0.00211362850044
+ 
+Number  of ways to  select  6 blue pens, 0 red pens and 4 green pens from  30 pens is 10C6*10C0*10C4 = 44100
+Probability of  selecting 6 blue pens, 0 red pens and 4 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  6 blue pens, 1 red pens and 3 green pens from  30 pens is 10C6*10C1*10C3 = 252000
+Probability of  selecting 6 blue pens, 1 red pens and 3 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  6 blue pens, 2 red pens and 2 green pens from  30 pens is 10C6*10C2*10C2 = 425250
+Probability of  selecting 6 blue pens, 2 red pens and 2 green pens from  30 pens is 425250/30045015 = 0.0141537622797
+ 
+Number  of ways to  select  6 blue pens, 3 red pens and 1 green pens from  30 pens is 10C6*10C3*10C1 = 252000
+Probability of  selecting 6 blue pens, 3 red pens and 1 green pens from  30 pens is 252000/30045015 = 0.00838741468427
+ 
+Number  of ways to  select  6 blue pens, 4 red pens and 0 green pens from  30 pens is 10C6*10C4*10C0 = 44100
+Probability of  selecting 6 blue pens, 4 red pens and 0 green pens from  30 pens is 44100/30045015 = 0.00146779756975
+ 
+Number  of ways to  select  7 blue pens, 0 red pens and 3 green pens from  30 pens is 10C7*10C0*10C3 = 14400
+Probability of  selecting 7 blue pens, 0 red pens and 3 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  7 blue pens, 1 red pens and 2 green pens from  30 pens is 10C7*10C1*10C2 = 54000
+Probability of  selecting 7 blue pens, 1 red pens and 2 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  7 blue pens, 2 red pens and 1 green pens from  30 pens is 10C7*10C2*10C1 = 54000
+Probability of  selecting 7 blue pens, 2 red pens and 1 green pens from  30 pens is 54000/30045015 = 0.00179730314663
+ 
+Number  of ways to  select  7 blue pens, 3 red pens and 0 green pens from  30 pens is 10C7*10C3*10C0 = 14400
+Probability of  selecting 7 blue pens, 3 red pens and 0 green pens from  30 pens is 14400/30045015 = 0.000479280839101
+ 
+Number  of ways to  select  8 blue pens, 0 red pens and 2 green pens from  30 pens is 10C8*10C0*10C2 = 2025
+Probability of  selecting 8 blue pens, 0 red pens and 2 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  8 blue pens, 1 red pens and 1 green pens from  30 pens is 10C8*10C1*10C1 = 4500
+Probability of  selecting 8 blue pens, 1 red pens and 1 green pens from  30 pens is 4500/30045015 = 0.000149775262219
+ 
+Number  of ways to  select  8 blue pens, 2 red pens and 0 green pens from  30 pens is 10C8*10C2*10C0 = 2025
+Probability of  selecting 8 blue pens, 2 red pens and 0 green pens from  30 pens is 2025/30045015 = 6.73988679986e-05
+ 
+Number  of ways to  select  9 blue pens, 0 red pens and 1 green pens from  30 pens is 10C9*10C0*10C1 = 100
+Probability of  selecting 9 blue pens, 0 red pens and 1 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  9 blue pens, 1 red pens and 0 green pens from  30 pens is 10C9*10C1*10C0 = 100
+Probability of  selecting 9 blue pens, 1 red pens and 0 green pens from  30 pens is 100/30045015 = 3.32833916042e-06
+ 
+Number  of ways to  select  10 blue pens, 0 red pens and 0 green pens from  30 pens is 10C10*10C0*10C0 = 1
+Probability of  selecting 10 blue pens, 0 red pens and 0 green pens from  30 pens is 1/30045015 = 3.32833916042e-08
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3						 4						 5						 6						 7						 8						 9						 10
+0    0.00000003328339160    0.00000332833916042    0.00006739886799857    0.00047928083910093    0.00146779756974660    0.00211362850043510    0.00146779756974660    0.00047928083910093    0.00006739886799857    0.00000332833916042    0.00000003328339160
+1    0.00000332833916042    0.00014977526221904    0.00179730314662848    0.00838741468426626    0.01761357083695914    0.01761357083695914    0.00838741468426626    0.00179730314662848    0.00014977526221904    0.00000332833916042    0.00000000000000000
+2    0.00006739886799857    0.00179730314662848    0.01415376227969931    0.04529203929503780    0.06605089063859679    0.04529203929503780    0.01415376227969931    0.00179730314662848    0.00006739886799857    0.00000000000000000    0.00000000000000000
+3    0.00047928083910093    0.00838741468426626    0.04529203929503780    0.10064897621119510    0.10064897621119510    0.04529203929503780    0.00838741468426626    0.00047928083910093    0.00000000000000000    0.00000000000000000    0.00000000000000000
+4    0.00146779756974660    0.01761357083695914    0.06605089063859679    0.10064897621119510    0.06605089063859679    0.01761357083695914    0.00146779756974660    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+5    0.00211362850043510    0.01761357083695914    0.04529203929503780    0.04529203929503780    0.01761357083695914    0.00211362850043510    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+6    0.00146779756974660    0.00838741468426626    0.01415376227969931    0.00838741468426626    0.00146779756974660    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+7    0.00047928083910093    0.00179730314662848    0.00179730314662848    0.00047928083910093    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+8    0.00006739886799857    0.00014977526221904    0.00006739886799857    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+9    0.00000332833916042    0.00000332833916042    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+10    0.00000003328339160    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 4						 5						 6						 7						 8						 9						 10						 SUM
+0    0.00000003328339160    0.00000332833916042    0.00006739886799857    0.00047928083910093    0.00146779756974660    0.00211362850043510    0.00146779756974660    0.00047928083910093    0.00006739886799857    0.00000332833916042    0.00000003328339160    0.00614930629923134
+ 
+1    0.00000332833916042    0.00014977526221904    0.00179730314662848    0.00838741468426626    0.01761357083695914    0.01761357083695914    0.00838741468426626    0.00179730314662848    0.00014977526221904    0.00000332833916042    0.00000000000000000    0.05590278453846671
+ 
+2    0.00006739886799857    0.00179730314662848    0.01415376227969931    0.04529203929503780    0.06605089063859679    0.04529203929503780    0.01415376227969931    0.00179730314662848    0.00006739886799857    0.00000000000000000    0.00000000000000000    0.18867189781732510
+ 
+3    0.00047928083910093    0.00838741468426626    0.04529203929503780    0.10064897621119510    0.10064897621119510    0.04529203929503780    0.00838741468426626    0.00047928083910093    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.30961542205920012
+ 
+4    0.00146779756974660    0.01761357083695914    0.06605089063859679    0.10064897621119510    0.06605089063859679    0.01761357083695914    0.00146779756974660    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.27091349430180012
+ 
+5    0.00211362850043510    0.01761357083695914    0.04529203929503780    0.04529203929503780    0.01761357083695914    0.00211362850043510    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.13003847726486406
+ 
+6    0.00146779756974660    0.00838741468426626    0.01415376227969931    0.00838741468426626    0.00146779756974660    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.03386418678772502
+ 
+7    0.00047928083910093    0.00179730314662848    0.00179730314662848    0.00047928083910093    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00455316797145883
+ 
+8    0.00006739886799857    0.00014977526221904    0.00006739886799857    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00028457299821618
+ 
+9    0.00000332833916042    0.00000332833916042    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000665667832085
+ 
+10    0.00000003328339160    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000003328339160
+ 
+Sum  0.00614930629923134    0.05590278453846671    0.18867189781732510    0.30961542205920012    0.27091349430180012    0.13003847726486406    0.03386418678772502    0.00455316797145883    0.00028457299821618    0.00000665667832085    0.00000003328339160    0.99999999999999989
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3						 4						 5						 6						 7						 8						 9						 10
+g(x)  0.00614930629923134    0.05590278453846671    0.18867189781732510    0.30961542205920012    0.27091349430180012    0.13003847726486406    0.03386418678772502    0.00455316797145883    0.00028457299821618    0.00000665667832085    0.00000003328339160
+
+f(0) = 0.00614930629923134
+f(1) = 0.05590278453846671
+f(2) = 0.18867189781732510
+f(3) = 0.30961542205920012
+f(4) = 0.27091349430180012
+f(5) = 0.13003847726486406
+f(6) = 0.03386418678772502
+f(7) = 0.00455316797145883
+f(8) = 0.00028457299821618
+f(9) = 0.00000665667832085
+f(10) = 0.00000003328339160
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3						 4						 5						 6						 7						 8						 9						 10
+h(y)  0.00614930629923134    0.05590278453846671    0.18867189781732510    0.30961542205920012    0.27091349430180012    0.13003847726486406    0.03386418678772502    0.00455316797145883    0.00028457299821618    0.00000665667832085    0.00000003328339160
+ 
+ 
+ 
+f(0) = 0.00614930629923134
+f(1) = 0.05590278453846671
+f(2) = 0.18867189781732510
+f(3) = 0.30961542205920012
+f(4) = 0.27091349430180012
+f(5) = 0.13003847726486406
+f(6) = 0.03386418678772502
+f(7) = 0.00455316797145883
+f(8) = 0.00028457299821618
+f(9) = 0.00000665667832085
+f(10) = 0.00000003328339160
+---------------------------------------------------------------------------------------------

@@ -1,0 +1,157 @@
+Number of fruits to be selected 5
+Number of apples fruits 6
+Number of banana fruits 6
+Number of oranges fruits 7
+Total number of fruits 19
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [2, 0], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2], [4, 0], [4, 1], [5, 0]]
+ 
+number  of ways to select 5 fruits form 19 is 19C5 = 11628
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (7Cx*6Cy*6C(5-x-y)) /19C5
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 oraanges fruits, 0 apple fruits and 5 banana fruits from  19 fruits is 6C0*6C0*7C5 = 6
+Probability of  selecting 0 orange fruits, 0 apple fruits and 5 banana fruits from  19 fruits is 6/11628 = 0.000515995872033
+ 
+Number  of ways to  select  0 oraanges fruits, 1 apple fruits and 4 banana fruits from  19 fruits is 6C0*6C1*7C4 = 90
+Probability of  selecting 0 orange fruits, 1 apple fruits and 4 banana fruits from  19 fruits is 90/11628 = 0.0077399380805
+ 
+Number  of ways to  select  0 oraanges fruits, 2 apple fruits and 3 banana fruits from  19 fruits is 6C0*6C2*7C3 = 300
+Probability of  selecting 0 orange fruits, 2 apple fruits and 3 banana fruits from  19 fruits is 300/11628 = 0.0257997936017
+ 
+Number  of ways to  select  0 oraanges fruits, 3 apple fruits and 2 banana fruits from  19 fruits is 6C0*6C3*7C2 = 300
+Probability of  selecting 0 orange fruits, 3 apple fruits and 2 banana fruits from  19 fruits is 300/11628 = 0.0257997936017
+ 
+Number  of ways to  select  0 oraanges fruits, 4 apple fruits and 1 banana fruits from  19 fruits is 6C0*6C4*7C1 = 90
+Probability of  selecting 0 orange fruits, 4 apple fruits and 1 banana fruits from  19 fruits is 90/11628 = 0.0077399380805
+ 
+Number  of ways to  select  0 oraanges fruits, 5 apple fruits and 0 banana fruits from  19 fruits is 6C0*6C5*7C0 = 6
+Probability of  selecting 0 orange fruits, 5 apple fruits and 0 banana fruits from  19 fruits is 6/11628 = 0.000515995872033
+ 
+Number  of ways to  select  1 oraanges fruits, 0 apple fruits and 4 banana fruits from  19 fruits is 6C1*6C0*7C4 = 105
+Probability of  selecting 1 orange fruits, 0 apple fruits and 4 banana fruits from  19 fruits is 105/11628 = 0.00902992776058
+ 
+Number  of ways to  select  1 oraanges fruits, 1 apple fruits and 3 banana fruits from  19 fruits is 6C1*6C1*7C3 = 840
+Probability of  selecting 1 orange fruits, 1 apple fruits and 3 banana fruits from  19 fruits is 840/11628 = 0.0722394220846
+ 
+Number  of ways to  select  1 oraanges fruits, 2 apple fruits and 2 banana fruits from  19 fruits is 6C1*6C2*7C2 = 1575
+Probability of  selecting 1 orange fruits, 2 apple fruits and 2 banana fruits from  19 fruits is 1575/11628 = 0.135448916409
+ 
+Number  of ways to  select  1 oraanges fruits, 3 apple fruits and 1 banana fruits from  19 fruits is 6C1*6C3*7C1 = 840
+Probability of  selecting 1 orange fruits, 3 apple fruits and 1 banana fruits from  19 fruits is 840/11628 = 0.0722394220846
+ 
+Number  of ways to  select  1 oraanges fruits, 4 apple fruits and 0 banana fruits from  19 fruits is 6C1*6C4*7C0 = 105
+Probability of  selecting 1 orange fruits, 4 apple fruits and 0 banana fruits from  19 fruits is 105/11628 = 0.00902992776058
+ 
+Number  of ways to  select  2 oraanges fruits, 0 apple fruits and 3 banana fruits from  19 fruits is 6C2*6C0*7C3 = 420
+Probability of  selecting 2 orange fruits, 0 apple fruits and 3 banana fruits from  19 fruits is 420/11628 = 0.0361197110423
+ 
+Number  of ways to  select  2 oraanges fruits, 1 apple fruits and 2 banana fruits from  19 fruits is 6C2*6C1*7C2 = 1890
+Probability of  selecting 2 orange fruits, 1 apple fruits and 2 banana fruits from  19 fruits is 1890/11628 = 0.16253869969
+ 
+Number  of ways to  select  2 oraanges fruits, 2 apple fruits and 1 banana fruits from  19 fruits is 6C2*6C2*7C1 = 1890
+Probability of  selecting 2 orange fruits, 2 apple fruits and 1 banana fruits from  19 fruits is 1890/11628 = 0.16253869969
+ 
+Number  of ways to  select  2 oraanges fruits, 3 apple fruits and 0 banana fruits from  19 fruits is 6C2*6C3*7C0 = 420
+Probability of  selecting 2 orange fruits, 3 apple fruits and 0 banana fruits from  19 fruits is 420/11628 = 0.0361197110423
+ 
+Number  of ways to  select  3 oraanges fruits, 0 apple fruits and 2 banana fruits from  19 fruits is 6C3*6C0*7C2 = 525
+Probability of  selecting 3 orange fruits, 0 apple fruits and 2 banana fruits from  19 fruits is 525/11628 = 0.0451496388029
+ 
+Number  of ways to  select  3 oraanges fruits, 1 apple fruits and 1 banana fruits from  19 fruits is 6C3*6C1*7C1 = 1260
+Probability of  selecting 3 orange fruits, 1 apple fruits and 1 banana fruits from  19 fruits is 1260/11628 = 0.108359133127
+ 
+Number  of ways to  select  3 oraanges fruits, 2 apple fruits and 0 banana fruits from  19 fruits is 6C3*6C2*7C0 = 525
+Probability of  selecting 3 orange fruits, 2 apple fruits and 0 banana fruits from  19 fruits is 525/11628 = 0.0451496388029
+ 
+Number  of ways to  select  4 oraanges fruits, 0 apple fruits and 1 banana fruits from  19 fruits is 6C4*6C0*7C1 = 210
+Probability of  selecting 4 orange fruits, 0 apple fruits and 1 banana fruits from  19 fruits is 210/11628 = 0.0180598555212
+ 
+Number  of ways to  select  4 oraanges fruits, 1 apple fruits and 0 banana fruits from  19 fruits is 6C4*6C1*7C0 = 210
+Probability of  selecting 4 orange fruits, 1 apple fruits and 0 banana fruits from  19 fruits is 210/11628 = 0.0180598555212
+ 
+Number  of ways to  select  5 oraanges fruits, 0 apple fruits and 0 banana fruits from  19 fruits is 6C5*6C0*7C0 = 21
+Probability of  selecting 5 orange fruits, 0 apple fruits and 0 banana fruits from  19 fruits is 21/11628 = 0.00180598555212
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3						 4						 5
+0    0.00051599587203302    0.00773993808049536    0.02579979360165119    0.02579979360165119    0.00773993808049536    0.00051599587203302
+1    0.00902992776057791    0.07223942208462332    0.13544891640866874    0.07223942208462332    0.00902992776057791    0.00000000000000000
+2    0.03611971104231166    0.16253869969040247    0.16253869969040247    0.03611971104231166    0.00000000000000000    0.00000000000000000
+3    0.04514963880288958    0.10835913312693499    0.04514963880288958    0.00000000000000000    0.00000000000000000    0.00000000000000000
+4    0.01805985552115583    0.01805985552115583    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+5    0.00180598555211558    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 4						 5						 SUM
+0    0.00051599587203302    0.00773993808049536    0.02579979360165119    0.02579979360165119    0.00773993808049536    0.00051599587203302    0.06811145510835913
+ 
+1    0.00902992776057791    0.07223942208462332    0.13544891640866874    0.07223942208462332    0.00902992776057791    0.00000000000000000    0.29798761609907121
+ 
+2    0.03611971104231166    0.16253869969040247    0.16253869969040247    0.03611971104231166    0.00000000000000000    0.00000000000000000    0.39731682146542824
+ 
+3    0.04514963880288958    0.10835913312693499    0.04514963880288958    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.19865841073271415
+ 
+4    0.01805985552115583    0.01805985552115583    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.03611971104231166
+ 
+5    0.00180598555211558    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00180598555211558
+ 
+Sum  0.11068111455108359    0.36893704850361198    0.36893704850361198    0.13415892672858618    0.01676986584107327    0.00051599587203302    1.00000000000000000
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3						 4						 5
+g(x)  0.06811145510835913    0.29798761609907121    0.39731682146542824    0.19865841073271415    0.03611971104231166    0.00180598555211558
+
+f(0) = 0.06811145510835913
+f(1) = 0.29798761609907121
+f(2) = 0.39731682146542824
+f(3) = 0.19865841073271415
+f(4) = 0.03611971104231166
+f(5) = 0.00180598555211558
+Value of Ux is  0.06811145510835913 * 0 + 0.29798761609907121 * 1 + 0.39731682146542824 * 2 + 0.19865841073271415 * 3 + 0.03611971104231166 * 4 + 0.00180598555211558 * 5 = 1.84210526316
+ 
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3						 4						 5
+h(y)  0.11068111455108359    0.36893704850361198    0.36893704850361198    0.13415892672858618    0.01676986584107327    0.00051599587203302
+ 
+ 
+ 
+f(0) = 0.11068111455108359
+f(1) = 0.36893704850361198
+f(2) = 0.36893704850361198
+f(3) = 0.13415892672858618
+f(4) = 0.01676986584107327
+f(5) = 0.00051599587203302
+Value of Uy is  0.11068111455108359 * 0 + 0.36893704850361198 * 1 + 0.36893704850361198 * 2 + 0.13415892672858618 * 3 + 0.01676986584107327 * 4 + 0.00051599587203302 * 5 = 1.57894736842
+ 
+--------------------------------------------------------------------------------------------------------------------
+Value of E(XY) is  0.000515995872033 * 0 * 0 + 0.0077399380805 * 0 * 1 + 0.0257997936017 * 0 * 2 + 0.0257997936017 * 0 * 3 + 0.0077399380805 * 0 * 4 + 0.000515995872033 * 0 * 5 + 0.00902992776058 * 1 * 0 + 0.0722394220846 * 1 * 1 + 0.135448916409 * 1 * 2 + 0.0722394220846 * 1 * 3 + 0.00902992776058 * 1 * 4 + 0 * 1 * 5 + 0.0361197110423 * 2 * 0 + 0.16253869969 * 2 * 1 + 0.16253869969 * 2 * 2 + 0.0361197110423 * 2 * 3 + 0 * 2 * 4 + 0 * 2 * 5 + 0.0451496388029 * 3 * 0 + 0.108359133127 * 3 * 1 + 0.0451496388029 * 3 * 2 + 0 * 3 * 3 + 0 * 3 * 4 + 0 * 3 * 5 + 0.0180598555212 * 4 * 0 + 0.0180598555212 * 4 * 1 + 0 * 4 * 2 + 0 * 4 * 3 + 0 * 4 * 4 + 0 * 4 * 5 + 0.00180598555212 * 5 * 0 + 0 * 5 * 1 + 0 * 5 * 2 + 0 * 5 * 3 + 0 * 5 * 4 + 0 * 5 * 5 = 2.45614035088
+ 
+---------------------------------------------------------------------------------------------------------------------
+The covariance of the random variables X and Y is E(XY) - Ux * Uy = 2.45614035088 - 1.84210526316 * 1.57894736842 = -0.452446906741

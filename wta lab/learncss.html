@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		css
+	</title>
+	<!external css we can link the id two each other -->
+	<link rel="stylesheet" type="text/css" href="name.css">
+	<!style tag will be in head tag we can define the propertise in it -->
+	<style>
+
+		/*p{
+		background-color:lightgreen;
+		color:blue;
+		}*/
+	
+		body{
+		background-image:url("a.jpg");
+		
+		/*repeat imamge*/
+		background-repeat:no-repeat;
+		/*it 
+		will repeat in x direction*/
+		background-repeat:repeat-x;
+		background-position:right top;
+		background-attachment:fixed;
+
+		}
+		/*this id selector use for to define id for a particular tag*/
+   #a2{ 
+	color:red;
+	text-align:center;
+	background-color:yellow;
+     }
+     /*this is for centre*/
+     .cen{color:red;
+	text-align:center;
+	background-color:yellow;
+
+     }
+/*grouping selector*/
+h6,h5,h4{
+color:blue; 
+}
+div{
+	width:20%;
+	height:20%;
+	background-color:lightblue;
+	border-radius:10px;
+	border: 1px solid red;
+    margin: 50px 50px 20px 30px;
+    padding:20px}
+
+input{
+
+padding:5px;
+border:1px solid red;
+
+}
+.p1{
+	color: red;
+	text-transform:uppercase;
+	/*uppercase lowercase capitalize three option avaliable */
+	text-indent:50px;
+	text-decoration:underline;
+	/*underline  bold italic*/
+	letter-spacing:5px;
+	word-spacing: 5px;
+	text-shadow: 3px 3px black;
+	text-direction: rtl;
+	/*font size*/
+	font-size:30px;
+	font-family:arial;
+	font-style: italic;
+	font-weight: bold;  
+}
+/*for hyperlink hover means mean when we touch the */
+a{
+	text-decoration:none;
+	color:red;
+	background-color:yellow;
+}
+a:hover
+{
+color:blue;
+text-decoration:underline;
+font-size:10px;
+background-color:red;
+}
+/*a:visited a:active* pan ahe/
+/*for opicity*/
+img{
+	opacity:0.1;
+}
+img:hover
+{
+	opacity:1;
+}
+/*creating in other ta in div tag*/
+.inner
+{width:10%;
+height: 10%;
+background-color:yellow;
+transform:rotate(30deg);
+}
+.ty
+{
+	column-count:2;
+	column-width:20px;
+	column-gap:2;
+}
+</style>
+</head>
+<body>
+
+<p style="background-color:lightblue; color:red; ">
+	i am snehal.
+</p>
+
+<p>
+	hi i am bhagyashri.
+</p>
+
+<h1>
+<marquee>
+	hi i am a student.
+</marquee>
+</h1>
+
+<h3 id="a2">
+	hi how is going
+</h3>
+<h2 class="cen">
+	this is class to understand how to design class 
+</h2>                 0
+<h6>
+	mango
+</h6>
+<h5>
+	apple
+</h5>
+<h4>
+		papaya<br>
+		this is understand to group selector
+</h4>
+<! this will explain div and marquee tag div will create a box and marquee will go from top to bottom>
+<table border="5" >
+	<tr>
+		<td>
+			<div>
+		        <marquee direction="up" width=100% height=100%>
+	                      computer<br>
+                           it
+	            </marquee>
+	        </div>
+		</td>
+		<td>
+			<div>
+				<marquee>
+	                        computer	<br>
+                            it
+	            </marquee>
+	        </div>
+		</td>
+	</tr>
+</table>
+	
+	<div>
+	name<input type="test">
+	</div>	
+	<!-- i left border and rdient -->
+	<!-- padding and margin -->
+<div>
+	username<input type="test" name="name">
+	password<input type="password" name="password">
+	<input type="submit" name="submit">
+</div>
+<!-- css test propertise -->
+<p class="p1">
+	HTML and css
+</p>
+
+
+<!-- hyperlink -->
+<p class="a2">
+<a href="html and css.html"> home </a>
+
+</p>
+<!-- opacity property -->
+<img src="b.jpg" width="100" height="100">
+<div >
+	<div class="inner">
+		hi
+	</div>
+</div>
+<!-- how to increment automatically -->
+<!-- i left counter means incerment tag -->
+
+
+
+
+
+</body>
+</html>

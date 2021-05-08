@@ -1,0 +1,11 @@
+RouteR2 RouteR0 1.2
+RouteR2 RouteR1 0.4	
+RouteR2 RouteR4 0.2
+RouteR2 RouteR3 0.11
+RouteR3 RouteR4 0.12
+RouteR3 RouteR5 0.15
+RouteR4 RouteR1 0.13
+RouteR4 RouteR5 0.7
+RouteR5 RouteR1 0.19
+RouteR1 RouteR0 0.8
+

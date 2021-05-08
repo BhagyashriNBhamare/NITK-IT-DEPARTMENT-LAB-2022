@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		javascript
+	</title>
+	<script>
+		function display() 
+		{
+			document.getElementById("my").innerHTML="hello word";
+		}
+		// we can write in other file also and we can write  function in that file
+		// sript src="my.js">
+         function dis()
+         {
+                document.getElementById("myi").src="b.jpg"
+         }   
+
+         function dis1()
+         {
+                document.getElementById("myi").src="a.jpg"
+         }        
+         function dis3()
+         {
+         	document.getElementById("b").src="a.jpg"
+
+         }
+         function dis4()
+         {
+         	document.getElementById("p1").innerHTML="collage";
+         	document.getElementById("p1").style.fontsize()="50px"
+         	document.getElementById("p1").style.fontsize()="100px"
+         }
+         function a1()
+         {
+            document.getElementById("a1").innerHTML=5+6;
+            // it will show the answer on button
+         } 
+         function a2()
+         {
+            document.write("hello world");
+            // it will erase all the content in html file and just print the answer
+         }function a3()
+         {
+           window.alert("hello wolld");
+           // it creates alert box
+         }
+         
+
+         // variable declaration 
+         function myfun()
+         {
+         	var a=10;
+         	var name="hello";
+         	var ch ="c";
+            var c=a;
+            document.alert("");
+         }
+
+         // function in javascript
+         function my(a,b){
+         	return a*b;
+         }
+         function display(){
+         	// document.write(my(4,5));
+         	document.getElementById("a7").innerHTML=my(4,5);
+         }
+        // // if else condition
+        // function elseif{
+        //  // if(condition){}
+        //  // if () {}else{}
+        //  // if () {}else if{}
+        // }
+        // swith case statement 
+        // swith(ch)
+        // {
+        //  case _:
+        //  break;
+        //  default:
+        //  break;
+        // }
+        // for loop
+        // for(var a=1;a<5;a++)
+        // do while statement is same like c
+        // do{}while();
+
+
+        // fetch text box value in javascript
+         function fetch()
+         {
+         var a=document.getElementById("t1").value;
+         var r=/^[A-Za-z]+$/; 
+         // ^ this means start and $ means end
+         // if (s.match(r)) {}
+         if (a=="") 
+         {
+            alert("write  something")
+         }
+         else if(isNaN(a))
+         {
+         // {    isNaN not a number a.length length of it 
+            alert("it should a number")
+         } 
+         else if (a<10) {
+            document.write("a is less than 10");
+         }
+         else
+         {
+            document.write("i am big");
+         }
+        }
+
+      // array in javascript
+      // {
+      //    var car={"car","bottle","bootle"};
+      //        car[0];
+      //        var color=new Array("red","blue");
+      //        //asociative  array variable
+      //        var p={fn:"red",lan:" marathi"}
+      //        p["fn"]
+      // }
+
+
+
+      // form processing 
+      function form5(form)
+{
+      // {  this is normal way without passing object
+      // var t=getElementById("x1");
+      //    var t=document.forms["myForm"]["name"].value;
+      //    var t1=document.forms["myForm"]["r1"].value;
+      //    // var t2=document.forms["myForm"]["k1"].value;
+      //    var str="";
+        //  // document.write(t);
+        //  // document.write(t1);
+        //     // document.write(t2);
+        // str=str+t;
+        // str=str+t1;
+        //   if(document.forms["myForm"]["k2"].checked) 
+        //  {
+        //     str=str+document.forms["myForm"]["k2"].value;
+            
+        //  }
+        //  if(document.forms["myForm"]["k3"].checked) 
+        //  {
+        //    str=str+document.forms["myForm"]["k3"].value;
+            
+        //  }
+        //  if(document.forms["myForm"]["k1"].checked) 
+        //  {
+        //    str=str+document.forms["myForm"]["k1"].value;
+           
+        //  }
+        // str=str+document.forms["myForm"]["f"].value;
+        // document.write(str);
+
+
+        // this is other function
+         if (form.a1=="") {
+          window.alert("please entre the name")
+          return false
+         }
+         if (form.r1.value=="") {
+          window.alert("please entre the gender")
+          return false
+
+         }if (form.g1.value=="") {
+          window.alert("please select the language")
+          return false
+
+
+
+         }
+         return true
+      }
+
+      // differnt components of button onload onfocus onsubmit onclick events 
+      function body()
+      {
+       alert("body tag running");
+      }
+      function pass(field)
+      {var a1=field.value;
+           if (a1.length<5) {
+            alert("length of password should be greater than 5")
+            return false
+           }
+           return true
+      }
+      // validate easily on change event
+      // function validate(feild)
+      // {var val=field.value
+      //   swith(feild.name)
+      //   case
+
+      //   case 
+
+
+      //   case
+
+
+      // }
+
+
+
+	</script>
+
+</head>
+<body onload="body();">
+<!-- <-- in body  we can use by id -->
+	<p id="my">
+		<script type="text/javascript">
+			document.getElementById("my").innerHTML="hello world"
+		</script>
+	</p>
+	<p id="my">
+		collage
+		
+	</p>
+<button onclick="display();">
+	<!-- it will call function display -->
+	click me
+</button>
+<br>
+<!-- <-- how to change the photo --> -->
+	<img src="a.jpg" width="100" height="100" id="myi">
+	<br>
+<button onclick="dis();">click me</button>
+</button>
+<button onclick="dis1();">click me</button>
+</button>
+<img id="bdth" height="20">
+<button onclick="dis3();"> clickme</button>
+<p id="p">
+
+</p>
+	<button onclick="dis4();" class="p1">
+	click me
+	</button>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!-- three differnt types of output creates alert box and out of whole page and output on button-->
+
+<button onclick="a1();" id="a1"> 1 </button>
+<button onclick="a2();"> 2 </button>
+<button onclick="a3();"> 3 </button>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- variable and comments -->
+
+<button onclick="myfun();"> hi  </button>
+
+
+<!-- function in javascript -->
+<button onclick="display();" id="a7"> function</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- how to fetch the value in from test box -->
+entre value<input type="text" id="t1">
+<button onclick="fetch();">click me</button>
+<br>
+<br>
+<br>
+<center>
+   <form id="myForm" action="javascript:alert('submitted')" onsubmit="return form5(this);">
+      username:<input type="text" id="name" name="a1" ><br>
+      password:<input type="password" onchange="pass(this);"><br>
+      gender:<input type="radio" name="r1" value="male">male
+      <input type="radio" name="r1" value="female">female<br>
+
+      language:<input type="checkbox" id="k1" value="Gujrati">gujrati
+      <input type="checkbox" id="k2" value="hindi">hindi
+      <input type="checkbox" id="k3" value="english">english<br>
+      addresss:<textarea></textarea>
+      select programming language
+      <select id="f" name="g1">
+         <option value="">select</option>
+         <option value="c">c</option>
+          <option value="c++">c++</option>
+           <option value="java">java</option>
+      </select>    
+
+      <input type="reset" name="reset">
+       <input type="submit">
+   </form>
+   
+</center>
+
+
+
+
+</body>
+</html>
+

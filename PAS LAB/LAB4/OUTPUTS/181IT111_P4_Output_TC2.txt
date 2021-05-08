@@ -1,0 +1,89 @@
+Number of pens to be selected 2
+Number of blue pens 3
+Number of red pens 3
+Number of green pens 5
+Total number of pens 11
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [2, 0]]
+ 
+number  of ways to select 2 pens form 11 is 11C2 = 55
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (3Cx*3Cy*5C(2-x-y)) /11C2
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 blue pens, 0 red pens and 2 green pens from  11 pens is 3C0*3C0*5C2 = 10
+Probability of  selecting 0 blue pens, 0 red pens and 2 green pens from  11 pens is 10/55 = 0.181818181818
+ 
+Number  of ways to  select  0 blue pens, 1 red pens and 1 green pens from  11 pens is 3C0*3C1*5C1 = 15
+Probability of  selecting 0 blue pens, 1 red pens and 1 green pens from  11 pens is 15/55 = 0.272727272727
+ 
+Number  of ways to  select  0 blue pens, 2 red pens and 0 green pens from  11 pens is 3C0*3C2*5C0 = 3
+Probability of  selecting 0 blue pens, 2 red pens and 0 green pens from  11 pens is 3/55 = 0.0545454545455
+ 
+Number  of ways to  select  1 blue pens, 0 red pens and 1 green pens from  11 pens is 3C1*3C0*5C1 = 15
+Probability of  selecting 1 blue pens, 0 red pens and 1 green pens from  11 pens is 15/55 = 0.272727272727
+ 
+Number  of ways to  select  1 blue pens, 1 red pens and 0 green pens from  11 pens is 3C1*3C1*5C0 = 9
+Probability of  selecting 1 blue pens, 1 red pens and 0 green pens from  11 pens is 9/55 = 0.163636363636
+ 
+Number  of ways to  select  2 blue pens, 0 red pens and 0 green pens from  11 pens is 3C2*3C0*5C0 = 3
+Probability of  selecting 2 blue pens, 0 red pens and 0 green pens from  11 pens is 3/55 = 0.0545454545455
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2
+0    0.18181818181818182    0.27272727272727271    0.05454545454545454
+1    0.27272727272727271    0.16363636363636364    0.00000000000000000
+2    0.05454545454545454    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 SUM
+0    0.18181818181818182    0.27272727272727271    0.05454545454545454    0.50909090909090904
+ 
+1    0.27272727272727271    0.16363636363636364    0.00000000000000000    0.43636363636363634
+ 
+2    0.05454545454545454    0.00000000000000000    0.00000000000000000    0.05454545454545454
+ 
+Sum  0.50909090909090904    0.43636363636363634    0.05454545454545454    0.99999999999999989
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2
+g(x)  0.50909090909090904    0.43636363636363634    0.05454545454545454
+
+f(0) = 0.50909090909090904
+f(1) = 0.43636363636363634
+f(2) = 0.05454545454545454
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2
+h(y)  0.50909090909090904    0.43636363636363634    0.05454545454545454
+ 
+ 
+ 
+f(0) = 0.50909090909090904
+f(1) = 0.43636363636363634
+f(2) = 0.05454545454545454
+---------------------------------------------------------------------------------------------

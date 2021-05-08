@@ -1,0 +1,6 @@
+output for test case 1 is 0.030303030303
+output for test case 2 is 0.0116279069767
+output for test case 3 is 0.00555555555556
+output for test case 4 is 0.00215053763441
+output for test case 5 is 0.000380952380952
+output for test case 6 is 3.39120998372e-05

@@ -1,0 +1,106 @@
+Number of pens to be selected 3
+Number of blue pens 5
+Number of red pens 6
+Number of green pens 4
+Total number of pens 15
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [3, 0]]
+ 
+number  of ways to select 3 pens form 15 is 15C3 = 455
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (5Cx*6Cy*4C(3-x-y)) /15C3
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 blue pens, 0 red pens and 3 green pens from  15 pens is 5C0*6C0*4C3 = 4
+Probability of  selecting 0 blue pens, 0 red pens and 3 green pens from  15 pens is 4/455 = 0.00879120879121
+ 
+Number  of ways to  select  0 blue pens, 1 red pens and 2 green pens from  15 pens is 5C0*6C1*4C2 = 36
+Probability of  selecting 0 blue pens, 1 red pens and 2 green pens from  15 pens is 36/455 = 0.0791208791209
+ 
+Number  of ways to  select  0 blue pens, 2 red pens and 1 green pens from  15 pens is 5C0*6C2*4C1 = 60
+Probability of  selecting 0 blue pens, 2 red pens and 1 green pens from  15 pens is 60/455 = 0.131868131868
+ 
+Number  of ways to  select  0 blue pens, 3 red pens and 0 green pens from  15 pens is 5C0*6C3*4C0 = 20
+Probability of  selecting 0 blue pens, 3 red pens and 0 green pens from  15 pens is 20/455 = 0.043956043956
+ 
+Number  of ways to  select  1 blue pens, 0 red pens and 2 green pens from  15 pens is 5C1*6C0*4C2 = 30
+Probability of  selecting 1 blue pens, 0 red pens and 2 green pens from  15 pens is 30/455 = 0.0659340659341
+ 
+Number  of ways to  select  1 blue pens, 1 red pens and 1 green pens from  15 pens is 5C1*6C1*4C1 = 120
+Probability of  selecting 1 blue pens, 1 red pens and 1 green pens from  15 pens is 120/455 = 0.263736263736
+ 
+Number  of ways to  select  1 blue pens, 2 red pens and 0 green pens from  15 pens is 5C1*6C2*4C0 = 75
+Probability of  selecting 1 blue pens, 2 red pens and 0 green pens from  15 pens is 75/455 = 0.164835164835
+ 
+Number  of ways to  select  2 blue pens, 0 red pens and 1 green pens from  15 pens is 5C2*6C0*4C1 = 40
+Probability of  selecting 2 blue pens, 0 red pens and 1 green pens from  15 pens is 40/455 = 0.0879120879121
+ 
+Number  of ways to  select  2 blue pens, 1 red pens and 0 green pens from  15 pens is 5C2*6C1*4C0 = 60
+Probability of  selecting 2 blue pens, 1 red pens and 0 green pens from  15 pens is 60/455 = 0.131868131868
+ 
+Number  of ways to  select  3 blue pens, 0 red pens and 0 green pens from  15 pens is 5C3*6C0*4C0 = 10
+Probability of  selecting 3 blue pens, 0 red pens and 0 green pens from  15 pens is 10/455 = 0.021978021978
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3
+0    0.00879120879120879    0.07912087912087912    0.13186813186813187    0.04395604395604396
+1    0.06593406593406594    0.26373626373626374    0.16483516483516483    0.00000000000000000
+2    0.08791208791208792    0.13186813186813187    0.00000000000000000    0.00000000000000000
+3    0.02197802197802198    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 SUM
+0    0.00879120879120879    0.07912087912087912    0.13186813186813187    0.04395604395604396    0.26373626373626374
+ 
+1    0.06593406593406594    0.26373626373626374    0.16483516483516483    0.00000000000000000    0.49450549450549453
+ 
+2    0.08791208791208792    0.13186813186813187    0.00000000000000000    0.00000000000000000    0.21978021978021978
+ 
+3    0.02197802197802198    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.02197802197802198
+ 
+Sum  0.18461538461538463    0.47472527472527470    0.29670329670329670    0.04395604395604396    1.00000000000000000
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3
+g(x)  0.26373626373626374    0.49450549450549453    0.21978021978021978    0.02197802197802198
+
+f(0) = 0.26373626373626374
+f(1) = 0.49450549450549453
+f(2) = 0.21978021978021978
+f(3) = 0.02197802197802198
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3
+h(y)  0.18461538461538463    0.47472527472527470    0.29670329670329670    0.04395604395604396
+ 
+ 
+ 
+f(0) = 0.18461538461538463
+f(1) = 0.47472527472527470
+f(2) = 0.29670329670329670
+f(3) = 0.04395604395604396
+---------------------------------------------------------------------------------------------

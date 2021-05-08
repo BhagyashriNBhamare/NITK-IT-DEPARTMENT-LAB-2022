@@ -1,0 +1,21 @@
+print
+path Router2 Router1
+edgedown router2 router1
+path router2 router1
+path router0 router3
+edgeup router2 router1
+vertexdown router4
+path router2 router5
+print
+reachable
+vertexup router4
+deleteedge router1 router5
+path router1 router5
+path router0 router5
+addedge router5 router6 0.8 
+addedge router1 router6 0.6
+path router2 router6
+print
+
+
+

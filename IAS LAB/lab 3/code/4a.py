@@ -1,0 +1,13 @@
+from scapy.all import *
+
+def main():
+
+   
+
+    pkt = IP(src='200.20.202.20', dst='100.102.100.102')/TCP(sport=81, dport = 80)
+    unans, ans = sr(pkt)
+
+
+if __name__ == '__main__':
+    main()
+

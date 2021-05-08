@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+	<style>
+	table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*tr:nth-child(even) {
+  background-color: #dddddd;
+}*/
+</style>
+</head>
+
+<body>
+<table>
+    <tr><th><h>Select the Animals you remember!!!!:</h></th></tr>
+	<tr><td><ul onclick="changeColor(this)">Tiger</ul></td></tr>
+	<tr><td><ul onclick="changeColor(this)">Cat</ul></td></tr>
+	<tr><td><ul onclick="changeColor(this)">Dog</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Elephant</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Pigeon</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Crow</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Monkey</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Mouse</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Zebra</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Honeybee</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Whale</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Cheetah</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Snake</ul></td></tr>
+	<tr><td><ul onclick="changeColor(this)">Donkey</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Cow</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Horse</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Hen</ul></td></tr>
+    <tr><td><ul onclick="changeColor(this)">Giraffe</ul></td></tr>  
+</table>
+    <br><br>
+  <button id="Done" class="button" onclick="calculateScore()"><a href="results.html">Next</a></button>
+</body>

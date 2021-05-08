@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="qfc-dark.css">
+</head>
+
+<body>
+  <div class="qfc-container">
+    <h2>Forest Tree Census</h2>
+    <form>
+      <div>
+        <div>
+            Name :<input placeholder="" type="text" required>
+        </div>
+        <div>
+          <label for="Tree">Choose Tree type :</label>
+            <select name="Tree" id="Tree">
+              <option value="Deciduous">Select</option>
+              <option value="Deciduous">Deciduous</option>
+              <option value="Evergreen ">Evergreen </option>
+              <option value="Angiosperms:">Angiosperms</option>
+              <option value="Gymnosperms">Gymnosperms</option>
+            </select>
+        </div>
+        <div>
+           Date : <input placeholder="DD-MM-YYYY" type="Date" required>
+        </div>
+        <div>
+           Time : <input placeholder="Time" type="Time" required>
+        </div>
+        <div>
+          Measurement Unit : <br><br><input type="radio" name="editList" value="always">cm
+          <input type="radio" name="editList" value="never">m
+        </div>
+        <div>
+            <input placeholder="Height" type="text" required>
+        </div>
+        <div>
+            <input placeholder="Radius" type="text" required>
+        </div>
+        <div>
+            <input type="button" onclick="getLocation();" value="Location"/>
+        </div>
+        <p id="demo"></p>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+<style>
+  a {
+    color :#00bcd4;
+    text-decoration: none;
+  }
+</style>
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+    
+function showPosition(position) {
+    x.innerHTML="Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</html>

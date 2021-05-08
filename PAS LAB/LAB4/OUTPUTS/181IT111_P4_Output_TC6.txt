@@ -1,0 +1,143 @@
+Number of pens to be selected 5
+Number of blue pens 4
+Number of red pens 4
+Number of green pens 4
+Total number of pens 12
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [2, 0], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2], [4, 0], [4, 1]]
+ 
+number  of ways to select 5 pens form 12 is 12C5 = 792
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (4Cx*4Cy*4C(5-x-y)) /12C5
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 blue pens, 0 red pens and 5 green pens from  12 pens is 4C0*4C0*4C5 = 0
+Probability of  selecting 0 blue pens, 0 red pens and 5 green pens from  12 pens is 0/792 = 0.0
+ 
+Number  of ways to  select  0 blue pens, 1 red pens and 4 green pens from  12 pens is 4C0*4C1*4C4 = 4
+Probability of  selecting 0 blue pens, 1 red pens and 4 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+Number  of ways to  select  0 blue pens, 2 red pens and 3 green pens from  12 pens is 4C0*4C2*4C3 = 24
+Probability of  selecting 0 blue pens, 2 red pens and 3 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  0 blue pens, 3 red pens and 2 green pens from  12 pens is 4C0*4C3*4C2 = 24
+Probability of  selecting 0 blue pens, 3 red pens and 2 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  0 blue pens, 4 red pens and 1 green pens from  12 pens is 4C0*4C4*4C1 = 4
+Probability of  selecting 0 blue pens, 4 red pens and 1 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+Number  of ways to  select  1 blue pens, 0 red pens and 4 green pens from  12 pens is 4C1*4C0*4C4 = 4
+Probability of  selecting 1 blue pens, 0 red pens and 4 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+Number  of ways to  select  1 blue pens, 1 red pens and 3 green pens from  12 pens is 4C1*4C1*4C3 = 64
+Probability of  selecting 1 blue pens, 1 red pens and 3 green pens from  12 pens is 64/792 = 0.0808080808081
+ 
+Number  of ways to  select  1 blue pens, 2 red pens and 2 green pens from  12 pens is 4C1*4C2*4C2 = 144
+Probability of  selecting 1 blue pens, 2 red pens and 2 green pens from  12 pens is 144/792 = 0.181818181818
+ 
+Number  of ways to  select  1 blue pens, 3 red pens and 1 green pens from  12 pens is 4C1*4C3*4C1 = 64
+Probability of  selecting 1 blue pens, 3 red pens and 1 green pens from  12 pens is 64/792 = 0.0808080808081
+ 
+Number  of ways to  select  1 blue pens, 4 red pens and 0 green pens from  12 pens is 4C1*4C4*4C0 = 4
+Probability of  selecting 1 blue pens, 4 red pens and 0 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+Number  of ways to  select  2 blue pens, 0 red pens and 3 green pens from  12 pens is 4C2*4C0*4C3 = 24
+Probability of  selecting 2 blue pens, 0 red pens and 3 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  2 blue pens, 1 red pens and 2 green pens from  12 pens is 4C2*4C1*4C2 = 144
+Probability of  selecting 2 blue pens, 1 red pens and 2 green pens from  12 pens is 144/792 = 0.181818181818
+ 
+Number  of ways to  select  2 blue pens, 2 red pens and 1 green pens from  12 pens is 4C2*4C2*4C1 = 144
+Probability of  selecting 2 blue pens, 2 red pens and 1 green pens from  12 pens is 144/792 = 0.181818181818
+ 
+Number  of ways to  select  2 blue pens, 3 red pens and 0 green pens from  12 pens is 4C2*4C3*4C0 = 24
+Probability of  selecting 2 blue pens, 3 red pens and 0 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  3 blue pens, 0 red pens and 2 green pens from  12 pens is 4C3*4C0*4C2 = 24
+Probability of  selecting 3 blue pens, 0 red pens and 2 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  3 blue pens, 1 red pens and 1 green pens from  12 pens is 4C3*4C1*4C1 = 64
+Probability of  selecting 3 blue pens, 1 red pens and 1 green pens from  12 pens is 64/792 = 0.0808080808081
+ 
+Number  of ways to  select  3 blue pens, 2 red pens and 0 green pens from  12 pens is 4C3*4C2*4C0 = 24
+Probability of  selecting 3 blue pens, 2 red pens and 0 green pens from  12 pens is 24/792 = 0.030303030303
+ 
+Number  of ways to  select  4 blue pens, 0 red pens and 1 green pens from  12 pens is 4C4*4C0*4C1 = 4
+Probability of  selecting 4 blue pens, 0 red pens and 1 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+Number  of ways to  select  4 blue pens, 1 red pens and 0 green pens from  12 pens is 4C4*4C1*4C0 = 4
+Probability of  selecting 4 blue pens, 1 red pens and 0 green pens from  12 pens is 4/792 = 0.00505050505051
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3						 4						 5
+0    0.00000000000000000    0.00505050505050505    0.03030303030303030    0.03030303030303030    0.00505050505050505    0.00000000000000000
+1    0.00505050505050505    0.08080808080808081    0.18181818181818182    0.08080808080808081    0.00505050505050505    0.00000000000000000
+2    0.03030303030303030    0.18181818181818182    0.18181818181818182    0.03030303030303030    0.00000000000000000    0.00000000000000000
+3    0.03030303030303030    0.08080808080808081    0.03030303030303030    0.00000000000000000    0.00000000000000000    0.00000000000000000
+4    0.00505050505050505    0.00505050505050505    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+5    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 4						 5						 SUM
+0    0.00000000000000000    0.00505050505050505    0.03030303030303030    0.03030303030303030    0.00505050505050505    0.00000000000000000    0.07070707070707072
+ 
+1    0.00505050505050505    0.08080808080808081    0.18181818181818182    0.08080808080808081    0.00505050505050505    0.00000000000000000    0.35353535353535354
+ 
+2    0.03030303030303030    0.18181818181818182    0.18181818181818182    0.03030303030303030    0.00000000000000000    0.00000000000000000    0.42424242424242420
+ 
+3    0.03030303030303030    0.08080808080808081    0.03030303030303030    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.14141414141414144
+ 
+4    0.00505050505050505    0.00505050505050505    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.01010101010101010
+ 
+5    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+ 
+Sum  0.07070707070707072    0.35353535353535354    0.42424242424242420    0.14141414141414144    0.01010101010101010    0.00000000000000000    0.99999999999999989
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3						 4						 5
+g(x)  0.07070707070707072    0.35353535353535354    0.42424242424242420    0.14141414141414144    0.01010101010101010    0.00000000000000000
+
+f(0) = 0.07070707070707072
+f(1) = 0.35353535353535354
+f(2) = 0.42424242424242420
+f(3) = 0.14141414141414144
+f(4) = 0.01010101010101010
+f(5) = 0.00000000000000000
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3						 4						 5
+h(y)  0.07070707070707072    0.35353535353535354    0.42424242424242420    0.14141414141414144    0.01010101010101010    0.00000000000000000
+ 
+ 
+ 
+f(0) = 0.07070707070707072
+f(1) = 0.35353535353535354
+f(2) = 0.42424242424242420
+f(3) = 0.14141414141414144
+f(4) = 0.01010101010101010
+f(5) = 0.00000000000000000
+---------------------------------------------------------------------------------------------

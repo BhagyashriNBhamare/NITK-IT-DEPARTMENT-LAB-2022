@@ -1,0 +1,134 @@
+Number of fruits to be selected 4
+Number of apples fruits 6
+Number of banana fruits 6
+Number of oranges fruits 6
+Total number of fruits 18
+ 
+possible set of x,y is [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 1], [4, 0]]
+ 
+number  of ways to select 4 fruits form 18 is 18C4 = 3060
+ 
+---------------------------------------------------------------------------------------------
+ probability function f(x, y) = (6Cx*6Cy*6C(4-x-y)) /18C4
+ 
+---------------------------------------------------------------------------------------------
+Number  of ways to  select  0 oraanges fruits, 0 apple fruits and 4 banana fruits from  18 fruits is 6C0*6C0*6C4 = 15
+Probability of  selecting 0 orange fruits, 0 apple fruits and 4 banana fruits from  18 fruits is 15/3060 = 0.00490196078431
+ 
+Number  of ways to  select  0 oraanges fruits, 1 apple fruits and 3 banana fruits from  18 fruits is 6C0*6C1*6C3 = 120
+Probability of  selecting 0 orange fruits, 1 apple fruits and 3 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  0 oraanges fruits, 2 apple fruits and 2 banana fruits from  18 fruits is 6C0*6C2*6C2 = 225
+Probability of  selecting 0 orange fruits, 2 apple fruits and 2 banana fruits from  18 fruits is 225/3060 = 0.0735294117647
+ 
+Number  of ways to  select  0 oraanges fruits, 3 apple fruits and 1 banana fruits from  18 fruits is 6C0*6C3*6C1 = 120
+Probability of  selecting 0 orange fruits, 3 apple fruits and 1 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  0 oraanges fruits, 4 apple fruits and 0 banana fruits from  18 fruits is 6C0*6C4*6C0 = 15
+Probability of  selecting 0 orange fruits, 4 apple fruits and 0 banana fruits from  18 fruits is 15/3060 = 0.00490196078431
+ 
+Number  of ways to  select  1 oraanges fruits, 0 apple fruits and 3 banana fruits from  18 fruits is 6C1*6C0*6C3 = 120
+Probability of  selecting 1 orange fruits, 0 apple fruits and 3 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  1 oraanges fruits, 1 apple fruits and 2 banana fruits from  18 fruits is 6C1*6C1*6C2 = 540
+Probability of  selecting 1 orange fruits, 1 apple fruits and 2 banana fruits from  18 fruits is 540/3060 = 0.176470588235
+ 
+Number  of ways to  select  1 oraanges fruits, 2 apple fruits and 1 banana fruits from  18 fruits is 6C1*6C2*6C1 = 540
+Probability of  selecting 1 orange fruits, 2 apple fruits and 1 banana fruits from  18 fruits is 540/3060 = 0.176470588235
+ 
+Number  of ways to  select  1 oraanges fruits, 3 apple fruits and 0 banana fruits from  18 fruits is 6C1*6C3*6C0 = 120
+Probability of  selecting 1 orange fruits, 3 apple fruits and 0 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  2 oraanges fruits, 0 apple fruits and 2 banana fruits from  18 fruits is 6C2*6C0*6C2 = 225
+Probability of  selecting 2 orange fruits, 0 apple fruits and 2 banana fruits from  18 fruits is 225/3060 = 0.0735294117647
+ 
+Number  of ways to  select  2 oraanges fruits, 1 apple fruits and 1 banana fruits from  18 fruits is 6C2*6C1*6C1 = 540
+Probability of  selecting 2 orange fruits, 1 apple fruits and 1 banana fruits from  18 fruits is 540/3060 = 0.176470588235
+ 
+Number  of ways to  select  2 oraanges fruits, 2 apple fruits and 0 banana fruits from  18 fruits is 6C2*6C2*6C0 = 225
+Probability of  selecting 2 orange fruits, 2 apple fruits and 0 banana fruits from  18 fruits is 225/3060 = 0.0735294117647
+ 
+Number  of ways to  select  3 oraanges fruits, 0 apple fruits and 1 banana fruits from  18 fruits is 6C3*6C0*6C1 = 120
+Probability of  selecting 3 orange fruits, 0 apple fruits and 1 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  3 oraanges fruits, 1 apple fruits and 0 banana fruits from  18 fruits is 6C3*6C1*6C0 = 120
+Probability of  selecting 3 orange fruits, 1 apple fruits and 0 banana fruits from  18 fruits is 120/3060 = 0.0392156862745
+ 
+Number  of ways to  select  4 oraanges fruits, 0 apple fruits and 0 banana fruits from  18 fruits is 6C4*6C0*6C0 = 15
+Probability of  selecting 4 orange fruits, 0 apple fruits and 0 banana fruits from  18 fruits is 15/3060 = 0.00490196078431
+ 
+
+
+
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table 
+ 
+     0						 1						 2						 3						 4
+0    0.00490196078431373    0.03921568627450980    0.07352941176470588    0.03921568627450980    0.00490196078431373
+1    0.03921568627450980    0.17647058823529413    0.17647058823529413    0.03921568627450980    0.00000000000000000
+2    0.07352941176470588    0.17647058823529413    0.07352941176470588    0.00000000000000000    0.00000000000000000
+3    0.03921568627450980    0.03921568627450980    0.00000000000000000    0.00000000000000000    0.00000000000000000
+4    0.00490196078431373    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000
+
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+---------------------------------------------------------------------------------------------
+Joint Probability Distribution Table with row wise sum and columan wise sum
+ 
+     0						 1						 2						 3						 4						 SUM
+0    0.00490196078431373    0.03921568627450980    0.07352941176470588    0.03921568627450980    0.00490196078431373    0.16176470588235295
+ 
+1    0.03921568627450980    0.17647058823529413    0.17647058823529413    0.03921568627450980    0.00000000000000000    0.43137254901960786
+ 
+2    0.07352941176470588    0.17647058823529413    0.07352941176470588    0.00000000000000000    0.00000000000000000    0.32352941176470590
+ 
+3    0.03921568627450980    0.03921568627450980    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.07843137254901961
+ 
+4    0.00490196078431373    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00000000000000000    0.00490196078431373
+ 
+Sum  0.16176470588235295    0.43137254901960786    0.32352941176470590    0.07843137254901961    0.00490196078431373    1.00000000000000000
+ 
+ ---------------------------------------------------------------------------------------------
+
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of X 
+ 
+x     0						 1						 2						 3						 4
+g(x)  0.16176470588235295    0.43137254901960786    0.32352941176470590    0.07843137254901961    0.00490196078431373
+
+f(0) = 0.16176470588235295
+f(1) = 0.43137254901960786
+f(2) = 0.32352941176470590
+f(3) = 0.07843137254901961
+f(4) = 0.00490196078431373
+Value of Ux is  0.16176470588235295 * 0 + 0.43137254901960786 * 1 + 0.32352941176470590 * 2 + 0.07843137254901961 * 3 + 0.00490196078431373 * 4 = 1.33333333333
+ 
+---------------------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------
+The Marginal Distributions table of Y  
+ 
+y     0						 1						 2						 3						 4
+h(y)  0.16176470588235295    0.43137254901960786    0.32352941176470590    0.07843137254901961    0.00490196078431373
+ 
+ 
+ 
+f(0) = 0.16176470588235295
+f(1) = 0.43137254901960786
+f(2) = 0.32352941176470590
+f(3) = 0.07843137254901961
+f(4) = 0.00490196078431373
+Value of Uy is  0.16176470588235295 * 0 + 0.43137254901960786 * 1 + 0.32352941176470590 * 2 + 0.07843137254901961 * 3 + 0.00490196078431373 * 4 = 1.33333333333
+ 
+--------------------------------------------------------------------------------------------------------------------
+Value of E(XY) is  0.00490196078431 * 0 * 0 + 0.0392156862745 * 0 * 1 + 0.0735294117647 * 0 * 2 + 0.0392156862745 * 0 * 3 + 0.00490196078431 * 0 * 4 + 0.0392156862745 * 1 * 0 + 0.176470588235 * 1 * 1 + 0.176470588235 * 1 * 2 + 0.0392156862745 * 1 * 3 + 0 * 1 * 4 + 0.0735294117647 * 2 * 0 + 0.176470588235 * 2 * 1 + 0.0735294117647 * 2 * 2 + 0 * 2 * 3 + 0 * 2 * 4 + 0.0392156862745 * 3 * 0 + 0.0392156862745 * 3 * 1 + 0 * 3 * 2 + 0 * 3 * 3 + 0 * 3 * 4 + 0.00490196078431 * 4 * 0 + 0 * 4 * 1 + 0 * 4 * 2 + 0 * 4 * 3 + 0 * 4 * 4 = 1.41176470588
+ 
+---------------------------------------------------------------------------------------------------------------------
+The covariance of the random variables X and Y is E(XY) - Ux * Uy = 1.41176470588 - 1.33333333333 * 1.33333333333 = -0.366013071895

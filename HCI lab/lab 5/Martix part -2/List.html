@@ -1,0 +1,150 @@
+<head>
+      <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<body>
+<center>
+<div class="container">
+  <div class="well well-lg">
+    <h1 class="text-center">Matrix</h1>
+    <p>ADD</p>
+    <form id="inputField" role="form">
+      <input type="text" name="field00" size="3">
+      <input type="text" name="field01" size="3">
+      <input type="text" name="field02" size="3">
+      <input type="text" name="field03" size="3">
+      <br>
+      <input type="text" name="field10" size="3">
+      <input type="text" name="field11" size="3">
+      <input type="text" name="field12" size="3">
+      <input type="text" name="field13" size="3">
+      <br>
+      <input type="text" name="field20" size="3">
+      <input type="text" name="field21" size="3">
+      <input type="text" name="field22" size="3">
+      <input type="text" name="field23" size="3">
+      <br>
+      <br>
+      <br>
+      <input type="button" onclick="calcJacobian()" value="calculate" name="calculate" class="btn btn-info">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id=""></div>
+    </form>
+    <div id="demo"></div>
+
+  </div>
+</div>
+</center>
+<script type="text/javascript">
+  function calcJacobian() {
+var a = document.getElementsByName("field00")[0].value;
+var b = document.getElementsByName("field01")[0].value;
+var c = document.getElementsByName("field02")[0].value;
+var d = document.getElementsByName("field03")[0].value;
+var e = document.getElementsByName("field10")[0].value;
+var f = document.getElementsByName("field11")[0].value;
+var g=  document.getElementsByName("field12")[0].value;
+var h = document.getElementsByName("field13")[0].value;
+var i = document.getElementsByName("field20")[0].value;
+var j = document.getElementsByName("field21")[0].value;
+var k = document.getElementsByName("field22")[0].value;
+var l = document.getElementsByName("field23")[0].value;
+var ans=0;
+var locations=[];
+if(a=='X')
+
+    { ans=ans+1;
+    }  
+else
+{
+document.getElementsByName("field00")[0].style.background='red';
+}
+if(b=='B')
+
+  { ans=ans+1
+
+  }
+else
+{
+document.getElementsByName("field01")[0].style.background='red';
+}
+if(c=='S')
+
+  { ans=ans+1
+
+  }
+else
+  {
+document.getElementsByName("field02")[0].style.background='red';
+}
+if(d=='T')
+
+  { 
+    ans=ans+1
+  }
+  else
+  {
+document.getElementsByName("field03")[0].style.background ='red';
+}
+if(e=='D')
+
+  { 
+    ans=ans+1
+  }else{
+document.getElementsByName("field10")[0].style.background='red';
+}
+  if(f=='H')
+
+  { 
+    ans=ans+1
+  }else{
+document.getElementsByName("field11")[0].style.background='red';
+}
+  if(g=='M')
+
+  { 
+    ans=ans+1
+  }else{
+document.getElementsByName("field12")[0].style.background='red';
+}
+  if(h=='G')
+
+  { 
+    ans=ans+1
+  }else{
+document.getElementsByName("field13")[0].style.background='red';
+}
+  if(i=='R')
+
+  { 
+    ans=ans+1
+  } else{
+document.getElementsByName("field20")[0].style.background='red';
+} if(j=='L')
+
+  { 
+    ans=ans+1
+  } else{
+document.getElementsByName("field21")[0].style.background='red';
+} if(k=='W')
+
+  { 
+    ans=ans+1
+  } else{
+document.getElementsByName("field22")[0].style.background='red';
+} if(l=='C')
+
+  { 
+    ans=ans+1
+  }else{
+document.getElementsByName("field23")[0].style.background='red';
+}
+  window.alert("Score "+(ans/12)*100)
+  document.getElementById("demo").innerHTML ="Incorrect marked boxes are marked with red <br> <br> Score(%) = "+((ans/12)*100);
+}
+  
+</script>
+</body>

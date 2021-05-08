@@ -1,0 +1,456 @@
+<html>
+<!-- first head tag will run tittle tg will run   -->
+<head>
+	<! name of head>
+	<!-- html ka tittle dete hai -->
+	<title >
+		BHAGYASHRI
+	</title>
+	<!internal css style -->
+	
+</head>
+<!body content bgcolor for whole body colour >
+<body bgcolor="white" >
+	
+
+<! header part gradully cgages its size from h1 to hn>
+	<h1><font size=20 color ="red" >self introduction </font> </h1>
+	<h2>bhaghu</h2>						
+
+hello world <br>
+<! breaks the line b bold i italic u underline hr taakes whole line center makes it in center>
+
+<b>i am bhagyashri </b> <br>
+<i>staring with html and css</i> <br>
+<b><i><u>so i am bhagyashri </u></i></b> <br>
+<hr>
+<!-- sspecial charcter -->
+	<!-- special character symbol -->
+	&copy; to company name <br>
+	hello &nbsp;&nbsp; world
+<!-- number of times we want space we should right that time nbsp -->
+<!-- less than &lt; greater than &gt; for double quotation &quot; &apos; for single quote  &reg; see in out put &larr;-->
+&lt; &gt; &quot;<br>
+&apos;<br>
+ &reg;<br>
+ &larr;
+ &rarr;
+ &uarr;.
+ &darr;
+ &Delta;
+ &Gamma;
+ <!-- how to make it to centre  -->
+<center> so this end</center>
+<!-- how to open a new link -->
+<a href="fuzzy.pdf">openpdf</a> <br>
+<hr>
+
+
+<! how to open image syntax img src=""if we specify width in pixle it will take that we can make this in link html format also>
+<img src="download.jpg" width=200 height=200>
+
+<! in this option after clicking to image it will open in new tab>
+<center><a href="a.jpg"><img src="a.jpg" width="50" height="50"></a></center>
+
+<!-- how to create a table   -->
+<center>
+	<! how to add create table >
+	<! border=1 creates border bgcolour makes whole table color  width means how much area it will take align means it will be in centre of page >
+	<table border="1" bgcolor="yellow" width="90%" align="centre">
+	<! tr creates no of rows> 	
+	<tr bgcolor="lightpink">
+    <!tr creates crreates no of columes th write in bold >
+	<th> no </th>
+	<th> student </th>
+	<th> roll </th>
+    </tr>
+    <tr bgcolor="blue" align="centre">
+    	<! no use centre align in rows>
+    	<td><center> 1 </center></td>
+    	<td>bhagyashri</td>
+    	<td>121</td>
+    </tr>
+    <tr bgcolor="yellow" >
+    	<td>2</td>
+    	<td>snehal</td>
+    	<td>34</td>
+    	
+    </tr>
+    <tr bgcolor="green">
+    	<td>3</td>
+    	<td>sandhay</td>
+    	<td>55</td>
+    </tr>
+	
+</table>
+
+</center>
+<!-- thead tfoot tbody are tabs realated to table  -->
+<table border="2">
+	<thead bgcolor="lightpink">
+		<tr>
+			<td>no</td>
+			<td>student</td>
+		</tr>
+	</thead>
+	<tbody bgcolour="yellow">
+	<tr>
+		<td>1</td>
+		<td>bhagyashri</td>
+	</tr>
+	<tr>
+			<td>2</td>
+			<td>snehal</td>
+		</tr>
+    </tbody>
+	<tfoot bgcolor="green">
+		<tr>
+			<td>3</td>
+			<td>sandhya</td>
+		</tr>
+
+	</tfoot>
+</table>
+
+
+
+<!these format create form type in password type password will not see
+// radio button we gave them a same name it will select only one 
+//but in check box we cant differensiate
+// reset button reset eveything which u typa>
+<center>
+	<form>
+		username:<input type="test"><br>
+		password:<input type="password"><br>
+		gender:<input type="radio" name="r1">male
+		<input type="radio" name="r1">female<br>
+
+		language:<input type="checkbox" >Gujrati
+		<input type="checkbox" >hindi
+		<input type="checkbox" >english<br>
+		addresss:<textarea></textarea>
+<input type="submit" >		
+<input type="submit" value="register">
+<input type="reset" name="reset">
+
+	</form>
+</center>
+
+
+<! after clicking to register or submit they button it will take to home.html we can use method get to acsess th page >
+
+	<form action="home.html" method="GET">
+		username:<input type="test"><br>
+		password:<input type="password"><br>
+		gender:<input type="radio" name="r1">male
+		<input type="radio" name="r1">female<br>
+
+		language:<input type="checkbox" >Gujrati
+		<input type="checkbox" >hindi
+		<input type="checkbox" >english<br>
+		addresss:<textarea></textarea>
+		<input type="submit" >
+        <input type="submit" value="register">
+
+
+	</form>
+<! how to viedio in html embed for it doesnt do full screen  >
+<embed src="bhagu.mp4" width="300" height="300">
+
+	
+</embed>
+ <! video tag mei full screen button ata hai embed mei auto play controls also u should add autoplay option also u should add lopp 3 means u can run it thrice -->
+<video width="200" height="200" controls="controls" autoplay="autoplay" loop="3">
+	<source src="bhagu.mp4" type="video/mp4">
+
+</video>
+<!in this will see how to play song -->
+<audio src="bhagya.mp3" autoplay="autoplay" controls="controls"><br>
+	
+</audio>
+<! how to make it background  -->
+<!it will run in background <bgsound src"bhagya.mp3> -->
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!-- how to choose color  -->
+<center>
+	<b>html 5 form element </b>
+	<form>
+	select color<input type="color"><br>
+	select date<input type="date"><br>
+	select number<input type="number"><br>
+	<!-- if u want to do some condition -->
+	select number<input type="number" min="1" max="10"><br>
+	<!-- if we want to increment by 5 -->
+	select number<input type="number" min="1" max="10" step="5"><br>
+	<!-- how to do for mail so if press incorrect email address it will show wrong while submitting it  -->
+	entre email<input type="email"> <input type="submit" name="submit"><br>
+	<!-- how to do for mail so if press incorrect email address it will show wrong while submitting it  -->
+	entre url<input type="url"><input type="submit" name="submit"><br>
+	<!-- time tag -->
+	time<input type="time" >
+	</form>
+</center>
+
+<!-- list in html order list unorder list  -->
+<!-- we will create unorder list it will give dot before the component   -->
+<ul>
+	<li>
+		computer
+	</li>
+	<li>
+		it
+	</li>
+	<li>
+		keybord
+	</li>
+	<li>
+		
+	</li>
+</ul>
+<!-- if we dont want anything rather than circle type square cirlce rectangle disc  -->
+<ul type="square">
+	<li>
+		computer
+	</li>
+	<li>
+		it
+	</li>
+	<li>
+		keybord
+	</li>
+	<li>
+		
+	</li>
+</ul>
+<!-- we will see order list  -->
+<ol>
+	<li>
+		gujrati
+	</li>
+	<li>
+		marathi
+	</li>
+</ol>
+<!-- we can change it from numbers to abc by changing it in type A or a  -->
+<ol type="A">
+	<li>
+		gujrati
+	</li>
+	<li>
+		marathi
+	</li>
+</ol>
+<ol type="a">
+	<li>
+		gujrati
+	</li>
+	<li>
+		marathi
+	</li>
+</ol>
+<ol type="i">
+	<li>
+		gujrati
+	</li>
+	<li>
+		marathi
+	</li>
+</ol>
+<!-- nesting of list  -->
+<ul>
+	<li>
+		java
+	</li>
+	<ul>
+		<li>
+			bhagyashri
+		</li>
+		<li>
+			snehal
+		</li>
+		<ul>
+			<li>
+				1
+			</li>
+			<li>
+				2
+			</li>
+		</ul>
+	</ul>
+</ul>
+<!-- metre tag is like mobile battery showing  -->
+<meter max="10" min="2" value="5">
+</meter>
+<!-- it should also for low it will change its color  -->
+battery<meter low="4" max="10" min="2" value="3">
+</meter>
+<!-- how to deleate in something -->
+<center>
+	hi i am <del>bhagyashri</del>
+</center>
+<!-- insert tag -->
+<center>
+		hi i am <del>bhagyashri</del><ins>snehal</ins>
+</center>
+<br>
+<br>
+<br>
+<br>
+<!--  test formatting html tag -->
+<b>test formatting html tag </b><br>
+<em>bha</em><br>
+<strong>bha</strong><br>
+<code>bha</code><br>
+<samp>bha</samp><br>
+<kbd>bha</kbd><br>
+<var>bha</var><br>
+<tt>bha</tt><br>
+<!-- make group and make box -->
+<fieldset>
+	username<input type="test"><br>
+	password<input type="password"><br>
+	<input type="submit" name="login">
+</fieldset>
+<!-- if we want to give title to box  -->
+<fieldset>
+	<legend>login form</legend>
+	username<input type="test"><br>
+	password<input type="password"><br>
+	<input type="submit" name="login">
+</fieldset>
+<!-- abbr tag  is to give u a hint  -->
+<abbr title="hi i am bhagyashri">
+	html<br>
+</abbr>
+<!-- datalist tag give a perfect imformation if u type i it will show information about i -->
+<input list="my">
+<datalist id="my">
+	<option value="computer">
+		<option value="it">
+		<option value="ece"><br>
+		
+</datalist>
+<!-- details tag if some thing which u have to select if u want to then click or else leave   -->
+<details>
+	<summary>my details is this </summary>
+	<p>
+		my name is bhagyashri
+	</p>
+</details>
+<!-- how to map a image to click on specific area on image and it will take u to somewhere else -->
+<!-- usemap command should give always before'#'and give name to map -->
+<img  usemap="#mymap" src="download.jpg" width=600 height=600 border="3">
+<map name="mymap">
+<area shape="rect" coords="0,0,50,50" href="a.jpg">
+<area shape="rect" coords="599,599,499,499" href="b.jpg">
+<area shape="circle" coords="300,300,100" href="download.jpg">
+<!-- we can manully create a polygon by joining the points  -->
+<area shape="poly" coords="300,300,200,200,100,100" href="a.jpg">
+</map>
+<!-- figure figcaption  -->
+<figure>
+	<img src="b.jpg" width="300" height="300":
+	<figcaption>this is photo</figcaption>
+</figure>
+<!-- this two will print line by line  -->
+<figure>
+	<img src="b.jpg" width="300" height="300">
+	<figcaption>this is photo</figcaption>
+	<img src="a.jpg" width="300" height="300">
+	<figcaption>2 second one</figcaption>
+</figure>
+<!-- we can print side by side using table -->
+
+<br>
+<!-- bdo tag  bidirection tag  caption tag rtl means right to left ltr left to right   -->
+<bdo dir="rtl">
+Hello<br> 
+</bdo>
+<!-- caption tag cation will always remain in centre -->
+
+<table border="3">
+	<caption> channel information  table </caption>
+	<tr>
+		<td>no </td>
+		<td> studet</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>bhagau</td>
+	</tr>
+</table>
+
+<!-- hr tag  -->
+<hr color="red" width="300" align="right">
+hello<br>
+<hr color="green">
+<!-- pre tag and template tag  -->
+<!-- pre tag will print like the way it is  -->
+<pre>
+	this     is pre tag
+</pre>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<template>
+	this is bhagyashri 
+	<img src="a.jpg">
+	
+</template>
+
+<!svg height and width will define a area cx and cy will define centre r will define radius fill will define color  -->
+<svg width="200" height="200">
+<circle cx="100" cy="100" r="80" fill="yellow" stroke="black" stroke-width="5"/>
+<text x="40" y="40" >circle</text>
+</svg>	
+<svg width="200" height="200">
+<rect width="100" height="100"  fill="yellow" stroke="black" stroke-width="5"/>
+</svg>
+<svg width="200" height="200"   >
+<line x1="5" y1="5" x2="80"  y2="80"  stroke="black" stroke-width="5"/>
+</svg>
+<svg width="200" height="200"   >
+<text x="40" y="40" >hello world</text>
+</svg>
+
+<!we use this tag to style  -->
+<p>
+	hi this is paragragh tag
+</p>
+
+<!pretag this tag use for to write in waht ever way u want -->
+<pre>
+	i am bhagyashri      i am bhagyui/fekfe
+</pre>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
